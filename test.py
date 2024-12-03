@@ -66,3 +66,9 @@ menu_bar.add_cascade(label="Trợ giúp", menu=help_menu)
 text.tag_configure("search", background="yellow")
 root.config(menu=menu_bar)
 root.mainloop()
+person = {"name": "John", "age": 30, "city": "New York"}
+print(person["name"])
+print(person["age"])
+print(person["city"])
+print ("hello world")
+
