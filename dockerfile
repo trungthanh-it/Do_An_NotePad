@@ -11,3 +11,5 @@ RUN apt-get install -y gnome gnome-session-flashback xorg dbus
 COPY  test.py ./test.py
 
 CMD ["python3", "test.py", "Notepad"]
+
+cout >> "hello word" ;
